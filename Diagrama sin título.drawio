@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="591" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,6 +238,131 @@
         </mxCell>
         <mxCell id="RHopQ6zvOMDrLnXvwB_Q-21" value="fin" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="310" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zy3P3iIefjl9JHV5Dnbl" name="Página-4">
+    <mxGraphModel dx="1286" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-1" value="4. Un importante negocio de desinfectante líquido realiza descuentos&#xa;dependiendo de la cantidad de litros vendidos según la siguiente escala:&#xa;a. Si vende menos de 100 litros, no hay descuento.&#xa;b. Si vende entre 101 y 300 litros, el descuento es del 10%.&#xa;c. Si vende entre 301 y 500 litros, el descuento es del 15%.&#xa;d. Finalmente, si la venta es de más de 500 litros, el descuento es del 25%.&#xa;Hacer un programa que solicite el ingreso del importe total de la venta y la&#xa;cantidad de litros" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-210" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-2" value="inciio" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-4" value="discount,totalLiters,sales" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-6" target="GV5eWUI6La4S4NV5jDf4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-6" value="&amp;nbsp;&lt;br&gt;cantidaLitros &amp;gt;500" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-8" value="v" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="169" y="191" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="184" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-9" value="discount = cantidadLitros * litros600&lt;div&gt;totalesLitres = cantiadLitros - discount&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="74" y="510" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-11" target="GV5eWUI6La4S4NV5jDf4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-11" value="sales &amp;lt; 500&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;sales &amp;gt; 301&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="911" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-15" value="sales &amp;lt; 300&lt;div&gt;&amp;amp;&amp;amp; sales &amp;gt; 101&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="720" y="600" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-19" value="cantiadadLitros, totalLitres" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="74" y="600" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-21" target="GV5eWUI6La4S4NV5jDf4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-21" value="litros101 =0.1&lt;div&gt;litros301 = 0.15&lt;/div&gt;&lt;div&gt;litros600 = 0.25&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="176" width="200" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-31" value="discount = cantidaLitros * litros301;&lt;div&gt;totaLiters = cantidadLtros - discount&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="570" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-33" value="cantidadLitros,totalLiters" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="670" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-36" value="discount = cantiadL * litros101&lt;div&gt;totaL = cantL - discount&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="740" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-43" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="GV5eWUI6La4S4NV5jDf4-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-38" value="cantidL, totalL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="675" y="840" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GV5eWUI6La4S4NV5jDf4-44" value="fin" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1220" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
