@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="591" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -363,6 +363,117 @@
         </mxCell>
         <mxCell id="GV5eWUI6La4S4NV5jDf4-44" value="fin" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="660" y="1220" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ksBEZNyuOl5Uddp1lK9x" name="Página-5">
+    <mxGraphModel dx="591" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-1" value="5. Hacer un programa que solicite el ingreso de las notas del primer parcial y del&#xa;segundo parcial de una alumna de programación. El programa deberá analizar&#xa;las notas y emitir la situación de la alumna según la siguiente escala:&#xa;a. Si tiene 8 o más en ambos parciales, emitir “aprobación directa”.&#xa;b. Si no tiene 8 o más en ambos pero tiene aprobados ambos parciales (se&#xa;aprueba con 6 o más), emitir “rinde examen final”.&#xa;c. Si tiene menos de 6 en alguno de los dos parciales, emitir “debe&#xa;recuperar”.&#xa;El programa debe emitir solo un cartel, el que corresponda." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="460" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-2" value="i" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-4" value="aprobado,rendir,recuperar, notaA,notaB, totalNotas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-6" value="notaA,&lt;div&gt;notaB&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-8" value="notaA &amp;gt;= 8&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;notaB &amp;gt;=8" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="500" width="164" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1150" as="targetPoint" />
+            <mxPoint x="220" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-10" value="&#39;&#39;aprobacion directa&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-12" value="notaA &amp;gt; =6&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;notab &amp;lt;8&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-14" value="&#39;&#39;rendir examen&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-16" value="notaA &amp;lt;6&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; notaB &amp;gt; 6&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="810" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7x-eAfSj0lJpDvlQQZ4-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-20" value="&#39;&#39;deve recuperar&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1140" as="sourcePoint" />
+            <mxPoint x="710" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-28" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" connectable="0" vertex="1" parent="W7x-eAfSj0lJpDvlQQZ4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7x-eAfSj0lJpDvlQQZ4-29" value="fin" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1240" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
