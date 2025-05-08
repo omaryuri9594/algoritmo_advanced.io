@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.3.0" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="591" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -792,6 +792,165 @@
         </mxCell>
         <mxCell id="3lIqgwQFYVPwd4yUXeIG-25" value="&quot;&quot;monto a pagar&quot;, montoFinal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1260" y="2070" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J9jwlqi4EcYsNp0ZCZG7" name="Página-9">
+    <mxGraphModel dx="810" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="9. Una importante marca de computadoras permite elegir cierta configuración del&#xa;equipo a comprar. Para ello existe la siguiente escala de precios:&#xa;&#xa;                    i5 (1)           i7 (2)                 i9 (3)&#xa;8 RAM (1)    USD800     USD 900       USD 1200&#xa;16 RAM (2)   USD900    USD 1000    USD 1400&#xa;32 RAM (3)  USD1000   USD1400     USD 2000&#xa;Además, el equipo viene con un disco que permite almacenar 500 GB de&#xa;información y que se puede ampliar a 1 TB si así lo desea, lo cual tiene un costo&#xa;adicional de USD 300.&#xa;Hacer un programa que solicite la opción de procesador, la opción de memoria&#xa;RAM, y si extiende el disco o no (ingresa 1 para extender y 0 para no extender)&#xa;y calcule y emita por pantalla el monto de la máquina seleccionada.&#xa;Nota: si no entendés nada de compus, procesadores y eso, mirá:&#xa;https://youtu.be/Bm3X8eHVv-s" link="9. Una importante marca de computadoras permite elegir cierta configuración del&#xa;equipo a comprar. Para ello existe la siguiente escala de precios:&#xa;i5 (1) i7 (2) i9 (3)&#xa;8 RAM (1) USD 800 USD 900 USD 1200&#xa;16 RAM (2) USD 900 USD 1000 USD 1400&#xa;32 RAM (3) USD 1000 USD 1400 USD 2000&#xa;Además, el equipo viene con un disco que permite almacenar 500 GB de&#xa;información y que se puede ampliar a 1 TB si así lo desea, lo cual tiene un costo&#xa;adicional de USD 300.&#xa;Hacer un programa que solicite la opción de procesador, la opción de memoria&#xa;RAM, y si extiende el disco o no (ingresa 1 para extender y 0 para no extender)&#xa;y calcule y emita por pantalla el monto de la máquina seleccionada.&#xa;Nota: si no entendés nada de compus, procesadores y eso, mirá:&#xa;https://youtu.be/Bm3X8eHVv-s" id="EFJyD_86kZDpcJUfd86Q-1">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="310" width="460" height="230" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-4" value="i" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-6" value="typoPi5,typoPi7,typoPi9" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="400" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-7" value="entero" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="408" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-10" value="CostoFinal,opcionMemeriaA, procesador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-12" value="&quot;&quot;Cual procesador desea comprar? eje: marque una de las opciiones. (1) (2) (3) &quot;,&lt;div&gt;&lt;br&gt;&lt;div&gt;procesador&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="600" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-14" value="&quot; Ademas, Desea comprar y ampliar&amp;nbsp; el disco del&amp;nbsp; mismo procesador?&amp;nbsp; (eje: si desea ampliar &quot;1&quot; . Para no extender marque 0 )&amp;nbsp; &quot;,&lt;div&gt;&lt;br&gt;&lt;div&gt;opcionMemeriaA&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="800" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-17" value="procesador &amp;lt;= 900" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1460" width="155" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-20" value="v" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="928" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-25" value="procesador &amp;lt;= 800&amp;nbsp;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;typeRam = 8&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1330" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-26" value="&quot;Eliga la memoria RAM: 8RAM, 16RAM,32RAM eje: opcion&amp;nbsp; (1), (2), ( 3)&quot;,&lt;div&gt;typeRam&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="690" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-27" value="&amp;nbsp;ram8 = 800&lt;div&gt;ram16 = 900&lt;/div&gt;&lt;div&gt;ram32 = 1000&lt;/div&gt;&lt;div&gt;typePi5= ram8+ ram16 + ram32&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="898" width="380" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-29" value="ram8 =900&lt;div&gt;ram16 = 1000&lt;/div&gt;&lt;div&gt;ram21 = 1400&lt;/div&gt;&lt;div&gt;typePi7 = ram8 , ram16, ram32&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1050" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-30" value="ram8 = 1200&lt;div&gt;mar16 = 1400&lt;/div&gt;&lt;div&gt;ram32 = 2000&lt;/div&gt;&lt;div&gt;typePi9 = ram8 + ram16,ram32&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="1169" width="395" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-33" value="v" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="1318" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-34" value="procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-37" value="procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="799" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-39" value="procesador = 1000" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-40" value="procesador &amp;lt;= 900&lt;div&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;typeRam = 16&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1920" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-43" value="procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFJyD_86kZDpcJUfd86Q-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-45" value="procesador&amp;nbsp; &amp;lt;= 1000&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2030" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-48" value="procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="2140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-49" value="procesador = 1400" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-50" value="procesador &amp;lt;= 1200&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;typeRam = 32&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2270" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-51" value="procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-52" value="procesador&amp;lt;= 1400" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2360" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-53" value="procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-54" value="procesador = 2000" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-55" value="extenderD=1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="2640" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-56" value="extenderD = 300&amp;nbsp;&lt;div&gt;montoFinal = procesador + extenderD&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2760" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-57" value="montoFinal = procesador" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2730" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-58" value="montoFinal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2850" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFJyD_86kZDpcJUfd86Q-59" value="montoFinal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
