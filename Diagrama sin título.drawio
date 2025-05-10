@@ -1365,22 +1365,22 @@
         <mxCell id="16U50l-Kqv7TyScyr0vI-24" value="mayor = c" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16U50l-Kqv7TyScyr0vI-26" value="b &amp;lt; c" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="16U50l-Kqv7TyScyr0vI-26" value="a &amp;lt; b" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="890" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16U50l-Kqv7TyScyr0vI-27" value="menor =a" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="16U50l-Kqv7TyScyr0vI-27" value="menor =c" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16U50l-Kqv7TyScyr0vI-28" value="medio = b" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="16U50l-Kqv7TyScyr0vI-28" value="medio = a" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16U50l-Kqv7TyScyr0vI-29" value="medio = c" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="16U50l-Kqv7TyScyr0vI-29" value="medio = b" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16U50l-Kqv7TyScyr0vI-30" value="mayor&amp;nbsp; = c" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="16U50l-Kqv7TyScyr0vI-30" value="mayor&amp;nbsp; = b" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16U50l-Kqv7TyScyr0vI-31" value="mayor=b" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="16U50l-Kqv7TyScyr0vI-31" value="mayor=a" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1330" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
