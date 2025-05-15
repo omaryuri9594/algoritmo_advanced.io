@@ -660,7 +660,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Rnu3DQe56QVB0jyAOAoe" name="Página-8">
-    <mxGraphModel dx="2325" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3037" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -675,11 +675,23 @@
         <mxCell id="oSx1Yx_Wjbn8YrMlqarW-2" value="i" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="-70" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="9zcLazdoaxZJZHwedRzO-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="oSx1Yx_Wjbn8YrMlqarW-4" target="9zcLazdoaxZJZHwedRzO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zcLazdoaxZJZHwedRzO-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="oSx1Yx_Wjbn8YrMlqarW-4" target="9zcLazdoaxZJZHwedRzO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oSx1Yx_Wjbn8YrMlqarW-4" value="number,max_par, min_par," style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-140" y="40" width="340" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9zcLazdoaxZJZHwedRzO-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="oSx1Yx_Wjbn8YrMlqarW-6" target="oSx1Yx_Wjbn8YrMlqarW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oSx1Yx_Wjbn8YrMlqarW-6" value="&quot;ingrese mas numeros&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-100" y="330" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9zcLazdoaxZJZHwedRzO-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="oSx1Yx_Wjbn8YrMlqarW-7" target="oSx1Yx_Wjbn8YrMlqarW-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSx1Yx_Wjbn8YrMlqarW-7" value="number" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-10" y="440" width="120" height="60" as="geometry" />
@@ -715,7 +727,7 @@
           <mxGeometry x="320" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="85LiOCGG3qbMpZIJav0M-9" value="el maximo numero encontrado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1080" width="270" height="60" as="geometry" />
+          <mxGeometry x="330" y="1250" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9zcLazdoaxZJZHwedRzO-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="85LiOCGG3qbMpZIJav0M-11">
           <mxGeometry relative="1" as="geometry">
@@ -734,10 +746,13 @@
           <mxGeometry x="-460" y="980" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="85LiOCGG3qbMpZIJav0M-14" value="&quot;&quot;Es el numeo impar, minimo encotrado&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="1180" width="290" height="60" as="geometry" />
+          <mxGeometry x="-240" y="1390" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9zcLazdoaxZJZHwedRzO-1" value="i, hay_par, hay_impar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-130" y="130" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9zcLazdoaxZJZHwedRzO-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="1" source="9zcLazdoaxZJZHwedRzO-2" target="oSx1Yx_Wjbn8YrMlqarW-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9zcLazdoaxZJZHwedRzO-2" value="hay_par = 0&lt;div&gt;hay_impar = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-95" y="220" width="290" height="60" as="geometry" />
@@ -766,6 +781,9 @@
         </mxCell>
         <mxCell id="9zcLazdoaxZJZHwedRzO-13" value="number &amp;lt; min_par" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-650" y="850" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9zcLazdoaxZJZHwedRzO-21" value="i&lt;div&gt;1 | 1| 10&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="330" width="150" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
