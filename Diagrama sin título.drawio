@@ -82,17 +82,63 @@
         <mxCell id="TSWbtUdNZvV_CkK9p_Vz-1" value="2. Hacer un programa para mostrar los números del 10 al 1. No se debe realizar&#xa;ningún pedido de datos. USANDO WHILE." style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="240" y="50" width="460" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TSWbtUdNZvV_CkK9p_Vz-2" target="TSWbtUdNZvV_CkK9p_Vz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TSWbtUdNZvV_CkK9p_Vz-2" value="I" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-3" value="N = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TSWbtUdNZvV_CkK9p_Vz-3" target="TSWbtUdNZvV_CkK9p_Vz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-3" value="N = 10" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-4" value="N &amp;lt;10" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TSWbtUdNZvV_CkK9p_Vz-4" target="TSWbtUdNZvV_CkK9p_Vz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDeD6lDHI52aAFkgirlC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TSWbtUdNZvV_CkK9p_Vz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-4" value="N&amp;nbsp; &amp;gt;1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TSWbtUdNZvV_CkK9p_Vz-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TSWbtUdNZvV_CkK9p_Vz-5" value="N = N - 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSWbtUdNZvV_CkK9p_Vz-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZDeD6lDHI52aAFkgirlC-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="560" as="sourcePoint" />
+            <mxPoint x="360" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZDeD6lDHI52aAFkgirlC-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="560" as="sourcePoint" />
+            <mxPoint x="370" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZDeD6lDHI52aAFkgirlC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZDeD6lDHI52aAFkgirlC-4" target="ZDeD6lDHI52aAFkgirlC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDeD6lDHI52aAFkgirlC-4" value="N&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDeD6lDHI52aAFkgirlC-6" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
