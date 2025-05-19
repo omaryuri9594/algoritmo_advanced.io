@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="4">
   <diagram name="Página-1" id="MqysI_zNpGcxP-8-YCxn">
     <mxGraphModel dx="591" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,45 @@
         </mxCell>
         <mxCell id="7_Qrn1epyGqxAhXYDjHV-22" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MikMR0MyVtDiLYWUMg-U" name="Página-4">
+    <mxGraphModel dx="591" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-1" value="Hacer un programa que solicite dos números y luego muestre los números&#xa;entre el menor y el mayor de ellos. Acordate, usando While." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-2" value="i" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-3" value="mayor , menor&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-4" value="mayor&lt;div&gt;menor&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TTjDDwxUUlQkKUzh3dT1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TTjDDwxUUlQkKUzh3dT1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-5" value="mayor &amp;gt; menor" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-8" value="mostrar =menor&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTjDDwxUUlQkKUzh3dT1-9" value="mayor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
