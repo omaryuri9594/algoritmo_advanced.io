@@ -420,8 +420,16 @@
         <mxCell id="M3R7FZORKPQWsA-XuELv-3" value="N1 &amp;gt; N2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="460" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="M3R7FZORKPQWsA-XuELv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M3R7FZORKPQWsA-XuELv-5" target="M3R7FZORKPQWsA-XuELv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M3R7FZORKPQWsA-XuELv-5" value="MA = N1&lt;div&gt;ME= N2&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3R7FZORKPQWsA-XuELv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M3R7FZORKPQWsA-XuELv-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="M3R7FZORKPQWsA-XuELv-7" value="MA = N2&lt;div&gt;ME = N1&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="560" width="120" height="60" as="geometry" />
@@ -440,6 +448,9 @@
         </mxCell>
         <mxCell id="M3R7FZORKPQWsA-XuELv-12" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="900" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M3R7FZORKPQWsA-XuELv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M3R7FZORKPQWsA-XuELv-10" target="M3R7FZORKPQWsA-XuELv-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
