@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="6">
   <diagram name="Página-1" id="MqysI_zNpGcxP-8-YCxn">
     <mxGraphModel dx="591" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,6 +411,75 @@
         </mxCell>
         <mxCell id="w3L1n8PZU83QM0DioFw9-13" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fzMlctZ4JVD_FNml6DyO" name="Página-6">
+    <mxGraphModel dx="591" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-1" value="Hacer un programa que solicite UN número y luego calcule y emita un cartel aclaratorio si el mismo es&#xa;primo o no es primo.&#xa;Nota: usando While. Ya lo hicimos con FOR, ahora con While." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P48mE-SCy1lblaSHJ5EN-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-2" value="I" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P48mE-SCy1lblaSHJ5EN-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-5" value="number, primo, i" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-8" value="i &amp;lt;= number" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-9" value="number MOD i =0&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P48mE-SCy1lblaSHJ5EN-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-10" value="contador++" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P48mE-SCy1lblaSHJ5EN-8">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-11" value="i++" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P48mE-SCy1lblaSHJ5EN-8">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P48mE-SCy1lblaSHJ5EN-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P48mE-SCy1lblaSHJ5EN-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-12" value="number = 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-14" value="esc primo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-16" value="no es primo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P48mE-SCy1lblaSHJ5EN-11" target="P48mE-SCy1lblaSHJ5EN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P48mE-SCy1lblaSHJ5EN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P48mE-SCy1lblaSHJ5EN-18" value="i = 1&lt;div&gt;contador = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
