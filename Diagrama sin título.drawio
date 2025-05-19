@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="10">
   <diagram name="Página-1" id="MqysI_zNpGcxP-8-YCxn">
     <mxGraphModel dx="1525" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -559,6 +559,69 @@
         </mxCell>
         <mxCell id="dVL9vD_Yv-d7rMzCeaaV-20" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NziLo4kRmorD4nEbTlfB" name="Página-10">
+    <mxGraphModel dx="1525" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W04gKlXI3mFQqgykXWsy-3" value="7. Hacer un programa que solicite una lista de números que corta cuando se ingresa un cero y luego mostrar&#xa;por pantalla el máximo de ellos y la posición en la que fue ingresado." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W04gKlXI3mFQqgykXWsy-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-4" value="i" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-7" value="N" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-8" value="P = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-9" value="N != 0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-10" value="SI N &amp;gt; MAX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W04gKlXI3mFQqgykXWsy-9">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-11" value="&amp;nbsp;MAX = N" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W04gKlXI3mFQqgykXWsy-9">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-12" value="PMAX = P" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W04gKlXI3mFQqgykXWsy-9">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-13" value="N &amp;gt; C" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W04gKlXI3mFQqgykXWsy-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-15" value="P++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-17" value="N &amp;lt; C" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-19" value="C = N" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-20" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1030" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-21" value="MAX = N&lt;div&gt;PMAX = P&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W04gKlXI3mFQqgykXWsy-24" value="MAX, PMAX" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
